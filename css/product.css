@@ -1,0 +1,68 @@
+/* Product Page */
+.product {
+    display: flex;
+}
+
+/* sidebar */
+.sidebar {
+    padding: 20px;
+    background-color: floralwhite;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sidebar li button {
+    margin-bottom: 31px;
+}
+
+/* product card */
+.cards {
+    font-family: 'Poppins', sans-serif;
+}
+
+.imgbox {
+    display: flex;
+}
+
+.imgbox .card {
+    margin: 28px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.imgbox img {
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+.cardfooter {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.price span {
+    color: darkcyan;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background-color: cadetblue;
+    transition: 0.5s;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: darkcyan;
+}
