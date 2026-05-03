@@ -1,0 +1,129 @@
+/* buy page  */
+.buysec{
+    min-height: 100vh;
+    background-image: url(./image/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.buy{
+    margin-top: 30px;
+    font-family:'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-card{
+    background-color: rgba(255,255, 255, .318);
+    backdrop-filter: blur(5px);
+    padding: 30px;
+    border-radius: 50px 0px;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: 700;
+    color: #333;
+}
+
+.text{
+    font-style: 15px;
+    color: #333;
+    margin-top: 10px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.inputborder {
+
+border: 1px solid #dadce000; 
+border-left: 4px solid cadetblue;
+background-color: #fff;
+margin-bottom: 20px;
+box-shadow: rgba(0, 0, 0, 0.1) 0 10px 50px;
+}
+
+.formdiv {
+
+margin-top: 30px;
+position: relative;
+height: 20px;
+margin-bottom: 24px;
+}
+
+.forminput {
+
+outline: none;
+position: absolute;
+width: 100%;
+height: 100%;
+font-size: 16px;
+letter-spacing: 1px;
+font-weight: 500;
+border: none;
+padding: 16px;
+z-index: 1;
+background: none;
+}
+
+input[type="password"] {
+font-size: 20px;
+}
+
+
+.formlabel {
+
+position: absolute;
+left: 15px;
+top: -5px;
+padding: 3px;
+color: gray;
+font-size: 16px;
+transition: 0.3s ease;
+}
+
+.forminput:focus+.formlabel,
+.forminput:not(:placeholder-shown).forminput:not(:focus)+.formlabel {
+top: -20px;
+left: 13px;
+font-size: 15px;
+font-weight: 500;
+z-index: 10;
+}
+
+.formbottom {
+font-family: 'Open Sans', sans-serif;
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.check {
+display: flex;
+align-items: center;
+font-size: 15px;
+font-weight: 500;
+color: #2b7050;
+
+}
+
+input[type=checkbox] {
+accent-color: #2b7050;
+width: 15px;
+height: 15px;
+cursor: pointer;
+}
+
+.order {
+border: none;
+background-color: #2b7050;
+color: white;
+letter-spacing: 1px;
+margin-right: 10px;
+width: 150px;
+height: 50px;
+cursor: pointer;
+}

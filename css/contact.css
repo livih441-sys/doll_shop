@@ -1,0 +1,54 @@
+.contactpage {
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+width: 100%;
+
+height: 88vh;
+
+font-family: 'Poppins', sans-serif;}
+
+.map {
+
+width: 40%;
+
+}
+
+.map img {
+
+
+width: 400px;
+
+height: auto;}
+
+.contacttitle {
+
+
+padding: 20px 20px 20px 30px;
+
+border-bottom: 1px solid rgba(128, 128, 128, 0.294);
+
+font-size: 20px;
+
+font-weight: 500;}
+
+.phone,
+
+.address,
+
+.internet,
+
+.time {
+
+padding: 20px 20px 0px 30px;
+
+}
+
+.contaction {
+    font-size: 20px;
+    margin-right: 20px;
+}
